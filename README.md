@@ -17,7 +17,7 @@ CSS Updates:
 - Added notes
 
 ## Deployed URL
-
+https://macykcool.github.io/refactor-mkt/
 
 ## Github Repository
 https://github.com/macykcool/refactor-mkt
