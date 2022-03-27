@@ -1,4 +1,4 @@
-/* GENERAL PAGE AND STYLING */
+/* GENERAL PAGE STYLING */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,15 +7,6 @@
 
 body {
     background-color: #d9dcd6;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 /* HEADER */
@@ -52,6 +43,16 @@ header div ul li {
     margin-left: 25px;
 }
 /* END HEADER */
+
+/* GENERAL PAGE STYLING */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
 
 /* HERO CONTAINS BACKGROUND IMAGE. THE IMAGE IS IN THE CSS FILE AND ALT IS IN HTML */
 .hero {
@@ -101,7 +102,7 @@ header div ul li {
 }
 /* END CONTENT */
 
-/* ASIDE */
+/* ASIDE CONTAINS BENEFITS */
 .benefits {
     margin-right: 20px;
     padding: 20px;
