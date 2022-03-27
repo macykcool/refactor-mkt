@@ -1,3 +1,4 @@
+/* GENERAL PAGE AND STYLING */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* HEADER */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +51,9 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* END HEADER */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* HERO CONTAINS BACKGROUND IMAGE. THE IMAGE IS IN THE CSS FILE AND ALT IS IN HTML */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,17 +62,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* END HERO */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* CONTENT CONATAINS SERVICES */
 .content {
     width: 75%;
     display: inline-block;
@@ -93,6 +89,19 @@ p {
     font-size: 36px;
 }
 
+/* FLOATS ARE REFERRING TO THE SERVICES IMAGES */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* END CONTENT */
+
+/* ASIDE */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,7 +128,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* END ASIDE */
 
+/* FOOTER */
 .footer {
     padding: 30px;
     clear: both;
@@ -130,3 +141,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* END FOOTER */
